@@ -1,0 +1,29 @@
+print("""4th Industrial Revolution
+
+The 4th Industrial Revolution 
+
+
+-MENU-
+
+Please choose one of the optins below, and press enter.
+
+1) Question & Answer 1
+2) Question & Answer 2
+3) Question & Answer 3
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  answer = "chosen"
+  
+  if(userchoice == "1"):
+   print("Why are you here at school? I am here at school to learn. Besides the basic answer I am here because school has most of the tools that I need to persuade a career.")
+  elif(userchoice == "2"):
+   print("What is the purpose of school? The purpose of school is to educate kids and prepare them for college.")
+  elif(userchoice == "3"):
+   print("Are you getting out of it, what you should be getting out of it? I get skills and knowledge out of it.")
+  else:
+   print("INVALID INPUT, please try again")
+   answer = "empty"
