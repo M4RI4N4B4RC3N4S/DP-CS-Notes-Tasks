@@ -10,6 +10,10 @@ Please choose one of the optins below, and press enter.
 1) Question & Answer 1
 2) Question & Answer 2
 3) Question & Answer 3
+4) Question & Answer 4
+5) Question & Answer 5
+6) Question & Answer 6
+7) Question & Answer 7
 """)
 
 answer = "empty"
@@ -24,6 +28,16 @@ while (answer == "empty"):
    print("What is the purpose of school? The purpose of school is to educate kids and prepare them for college.")
   elif(userchoice == "3"):
    print("Are you getting out of it, what you should be getting out of it? I get skills and knowledge out of it.")
+   print("INVALID INPUT, please try again")
+   answer = "empty"
+  elif(userchoice == "4"):
+   print("Who do you think went to school before that? Before school was compulsory, I think only wealthy/rich people went to school.")
+  elif(userchoice == "5"):
+   print("Why do you think the laws changed? I think laws changed because they saw potential in the creation of schools.")
+  elif(userchoice == "6"):
+   print("What effects do you think it would have? Kids became more obedient towards authority, learned how to stay organized with their time, and were prepared for future employment.")
+  elif(userchoice == "7"):
+   print("What are your thoughts in response to this video? Honestly scared but impressed at the same time. Scared of the future and how different our daily activities will look and obviously worried about how much unemployment will increase; however I am impressed with how much technology has advanced and of the prons it provides.")
   else:
    print("INVALID INPUT, please try again")
    answer = "empty"
