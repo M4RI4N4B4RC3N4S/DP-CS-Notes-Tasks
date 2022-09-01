@@ -1,1 +1,38 @@
+print("""Systems 
 
+-MENU-
+
+Please choose one of the optins below, and press enter.
+
+1)System
+2)Legacy Systems
+3)Planning
+4)Feasibility, including TELOS
+5)Change Management
+6)Business Merger
+7)Real World Example: US Post Office
+8)Hypothetical Example: Encyclopedia Sales
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  answer = "chosen"
+  
+  if(userchoice == "1"):
+   print("Systems: A computer system is a full IT system. It includeds the people,environment employees and/or users, maintaining and protecting data or hardware.")
+  elif(userchoice == "2"):
+   print("Legacy System:Legacy System is an out-dated system that continues to be used because it still performs the function is was intended to do.   ")
+  elif(userchoice == "3"):
+   print("Planning: When planning a new system steps such as discussing new hardware, changing, potential locations of technology, new policies, new training and upskilling, and hiring or firing employees.")
+  elif(userchoice == "4"):
+   print("Feasibility, includindg TELOS: A feasibility study cover differents areas to make a project more successfful.")
+  elif(userchoice == "5"):
+   print("Change Management: SHifting, hiring, or letting go employees or whole departments, or changing the process or work one does.")
+  elif(userchoice == "6"):
+   print("Business Merger: When companies collaborate together and become one. ")
+  elif(userchoice == "7"):
+   print("Real World Example: ")  
+  elif(userchoice == "8"):
+   print("Hypothetical Example:")
