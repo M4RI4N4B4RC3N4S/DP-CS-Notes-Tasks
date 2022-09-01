@@ -1,0 +1,60 @@
+print("""The Basics of Programming 
+
+With your partner, determine a name for your programming language. Draft out the syntax for your language for the standard concepts seen in all programming languages (like how to assign variables, perform operators, flow control, etc). Draft up two sample programs; first a Hello World program, and second a more complex program that includes variables, operators, and flow control.
+
+Heavily inspired by Javascript 
+https://www.w3schools.com/js/js_operators.asp 
+// the hello world program
+document.write('Hello, World!');
+
+Samesie x = Diff 5 ← constant variable example in our lang. 
+
+-MENU-
+
+Please choose one of the optins below, and press enter.
+
+1)Variable 
+2)Constant 
+3)Operators
+4)Flow Control
+5)Syntax 
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  answer = "chosen"
+  
+  if(userchoice == "1"):
+   print("x = Diff 5 ")
+  elif(userchoice == "2"):
+   print("Use “Samesie” when entering a constant variable. New array,object, function, and RegExp Instead of Const use Samesie")
+  elif(userchoice == "3"):
+   print("""Picked out arithmetic operators with a few fun twists. This is just to make it more beginner friendly 
+// → :/ → Division 
++ → Addition 
+- → Subtraction 
+x → multiplication 
+** →  x^ → Exponentiation 
+++ → Increment 
+-- → Decrement 
+""")
+  elif(userchoice == "4"):
+   print("""Flow control needs to stay the same because it's an easy concept to understand already.
+If
+Then 
+Else 
+Loop
+Switch""")
+  elif(userchoice == "5"):
+   print("""Is a set of rules, how our program is constructed 
+Creating/declaring  a variable: 
+Let w = xyz 
+Variable y = x + m 
+Literals: 
+Numbers: 1.5, 2, 0.5 
+Strings: “blah blah” 
+Arithmetic operators to compute values 
+Comments: 
+Comments start with a # and it will read the line as a comment""")
