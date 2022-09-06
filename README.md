@@ -20,3 +20,4 @@ These are my notes and tasks from my IB Diploma Computer Sciencec class.
 
 
 
+9/6 Systems Design 
