@@ -1,0 +1,51 @@
+print("""Software Testing Notes 
+
+-KEY TERMS-
+
+Pick one and press enter
+
+1)debugging
+2)verification vs validation
+3)testing & types of testing:
+-dry-run
+-functional
+-unit
+-integration
+-user acceptance
+-alpha
+-beta
+4)types of data used in testing:
+-normal
+-at the limits
+-extreme
+-abnormal 
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+   userchoice = input()
+   answer = "chosen"
+
+if(userchoice == "1"):
+    print("Debugging is the systematic process of correcting and finding bugs or errors in a program. ")
+elif(userchoice == "2"):
+    print("Verification is about building a project right. Validation is about meeting the client requirements.")
+elif(userchoice == "3"):
+    print("""Testing & Types of Testing:
+   -Testing can be divided into two categories,dynamic and static.In dynamic testing you directly use the system to test it. Static testing is the opposite,the software or system is not ran.Instead you analyze the algorith desing and reviw the code.
+   -Static testing includes dry-runs, this when you manually move through the code with pen and paper.
+   -Functional testing means to test individual commands, text input, menu fuctions, etc. 
+   -Unit testing means to separately test individual components or parts of the system or software.
+   -Integration test means componets test each other withing the system of software.
+   -User testing acceptance means to determine is the system satisfies the customer's needs. This type of testing is common when the system of software is specifically designed for a specific client and not a software provided for the genaral public. 
+   -In alpha testing, the software or system is given to those within the company or organization who are not specifically involved in the production of the product. 
+   -In beta testing, the software system is available to the public. This is the closets and most realistic testing data before realising the final product.
+""")
+elif(userchoice == "4"):
+    print("""Types of data used in testing:
+    -Normal data is typical or expected data to be accepted by the system, range of 3.
+    -Extreme data accepting integers between 1-5.
+    -At the limits data expectations shoul be accepted.
+    -Boundary test data is the pair of values at the end of the range. 
+""")
