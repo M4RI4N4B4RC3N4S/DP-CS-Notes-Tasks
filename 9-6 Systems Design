@@ -1,1 +1,26 @@
+print("""Systems Designs Notes 
 
+-MENU-
+
+Choose one and press enter.
+
+1)SaaS
+2)On-Premise Software
+3)System Life Cycle
+4)Functional Testing
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  answer = "chosen"
+  
+  if(userchoice == "1"):
+   print("SaaS is a method of delivering software and applications over the internet via a subscription model. Saas is hosted and maitaing by a third-party provider. Saas is commonly used since you don't have to be a developer or an IT expert to use it, for instance Google Docs. SaaS is used in a lot of businesses. Some benefits of Saas include:SaaS is cost efficient,SaaS is a subscribed based model(usually includes support), scalability, SaaS can be accessed anywhere, and Saas automatically upgrades. Other defenition for it: SaaS is hosted via the cloud, and the expenses may include IT support from the software provider.")
+  elif(userchoice == "2"):
+   print("On-Premise Software is a systems hosted in-house meaning that the person or organization using the software are in charged. On-Premise Software may cause unexpected costs when issues ocuurs. Thats why it is sometimes require to have on-staff IT professionals. Other defenition for it: On-Premise is hosted on site, and may need technicians and other professionals on site to help maintain it.")
+  elif(userchoice == "3"):
+   print("System Life Cycle reffers to the process by which the software is conceptualiazed, developed, and maintained. There are 7 key points to understand SLC. Phase one is planning, phase two is requiremnet analysys, pahse three is design, phase four is implementation/coding, phase five is testing, phase six is deployment, and phase seven is maintenance. ")
+  elif(userchoice == "4"):
+   print("Software Testing is a predefined process that has to be followed step by step. Software testing overall in making sure thaht the app or website works. Check functionality. In an intance if an app you would check if you can send messages or make calls. In an intance of a website you would check if you can add items to cart and remove items.")
