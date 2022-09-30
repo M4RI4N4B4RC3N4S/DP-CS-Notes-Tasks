@@ -60,5 +60,4 @@ elif (userchoice == "8"):
         """Then they chose a strategie for the integration:Both systems may be kept, with development to have the functionality. Running both systems in parallel has high maintance costs. 
   - Both systems may be replaced with a new system. New system might meet the newcompany organization's needs bette. Higher inital costs, including new training. 
   - Select the best system from each and merge them. Providing familiarity for employees. Takes time to adjust because to operating by habit in some parts. 
-  - select the better of the two systems and drop the other system entirely. Possible resistance to change and policy issues."""
-    )
+  - select the better of the two systems and drop the other system entirely. Possible resistance to change and policy issues.""")
