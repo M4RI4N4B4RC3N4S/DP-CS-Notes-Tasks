@@ -1,0 +1,92 @@
+print("""Updates & Components
+
+ -TERMS/CONCEPTS-
+
+pick one and press enter
+
+1) Terminology:Patches,Upgrades,Upgdates,Releases
+2) Hardware
+3) Software 
+4) Peripheral Devices
+5) Computer Network
+6) Human Resources
+7) Dumb Terminal
+8) Thin Client
+9) Client
+10) Email Server
+11) Router
+12) DNS Server
+13) Firewall
+14) Client-server
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+    userchoice = input()
+    answer = "chosen"
+
+if (userchoice == "1"):
+    print(
+        """-Patches: Used by sofware companies to update applications by fixing know bugs and vunurabilities. Patches may introduce new bugs.
+-Upgrades: Contain a novel function or characteristics, as well as cumulative bug fixes. Upgrades often require an additional purchase.
+-Updates: Improve a product in a minor way, adding some new funcionality or fixing a bug. Updates are usually free. Updates may be obtained manually, or may also be automatic through an internet connection.
+-Releases: Final, working verions of software applications. Prior to release, they shoulld undergo alpha and beta testing. A release is a new product, or an upgraded product."""
+    )
+elif (userchoice == "2"):
+    print(
+        "Hardware consist of the physical parts of the system. Hardware refers to the computer's tangible components or delivery systems that store and run the written instructions provided by the software. "
+    )
+elif (userchoice == "3"):
+    print(
+        """The set of instructions which makes the computer system do something useful. The set of instructions are collected together in workable groups known as programs. Coumputers woulc not be able to work without thses programs of instructions.Different types of software.
+  -Systems Software:Make the hardware of the computer ready for use. Allows human beings to communicate with the computer. Control the movement of data sround the computer. Turns instructions from human form into a form that the computer will understand.
+  -Applications Software:Designed to make the computer carry out some task. Makes the computer do something that useful for for the user."""
+    )
+elif (userchoice == "4"):
+    print(
+        """"These are hardware devices that are outside the computer processor. Typicallly connected to the computer by cables. Printer is the obvious example as well as hard disk. There are 3 types of peripheral.
+  -input device: Allows data to be transmitted to the computer processor.
+  -outout device:Any device that allows the computer processor to output information.
+  -storage:Any piece of hardware which can store data outside the processor in a form which is suitable for input back into the processor."""
+    )
+elif (userchoice == "5"):
+    print(
+        "A set of computers systems that are interconnectes and shared resources, as well as data. For example:Local Area Network,Wide Area Network."
+    )
+elif (userchoice == "6"):
+    print(
+        "People who are part of (or could be part of) an organization, business, or economy."
+    )
+elif (userchoice == "7"):
+    print(
+        "Dumb terminal: has no built-in data processing capabilities and serves only to send and receive data"
+    )
+elif (userchoice == "8"):
+    print(
+        "A thin client is a basic computing device that runs services and software from a centralized server. "
+    )
+elif (userchoice == "9"):
+    print(
+        "A client is a piece of computer hardware or software that accesses a service made available by a server as part of the client–server model of computer networks."
+    )
+elif (userchoice == "10"):
+    print(
+        "An email server, also called a mail server, is essentially a computer system that sends and receives emails."
+    )
+elif (userchoice == "11"):
+    print(
+        "A router receives and sends data on computer networks. Routers can combine the functions of these components, and connect with these devices, to improve internet access or help create business networks."
+    )
+elif (userchoice == "12"):
+    print(
+        "A DNS is a database with a collection of domain names and their corresponding IP addresses. It is often called the phonebook of the internet"
+    )
+elif (userchoice == "13"):
+    print(
+        "A hardware or software network infrastructure that controls data flow access among network entities. The firewall is mainly used to offer protection and limit access to a network. The idea firewall system configuration consists of hardware and software components."
+    )
+elif (userchoice == "14"):
+    print(
+        "A computing system composed of two logical parts: a server, which provides information or services, and a client, which requests them."
+    )
