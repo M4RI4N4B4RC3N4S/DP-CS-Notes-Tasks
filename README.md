@@ -30,3 +30,12 @@ These are my notes and tasks from my IB Diploma Computer Sciencec class.
 
 
 
+9/22 Updates & Components 
+
+
+
+
+9/26 Ethics & Impact
+
+
+
