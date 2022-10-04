@@ -1,0 +1,107 @@
+print("""Ethics & Impact Notes 
+
+-TERMS-
+
+1) Reliability
+2) Integrety
+3) Authenticity
+4) Security
+5) Privacy
+6) Anonymity
+7) I.P
+8) Digital Divide/Equality of Access
+9) Surveillance
+10) Globalization
+11) I.T Policies
+12) Standards & Protocols
+13) People & Machines
+14) Digital Citizenship
+15) Constant Exposure to Commmunications Technology 
+16) The Internet 
+17) Gaming
+18) Developments of Smartphones
+19) Over use of Mobile Devices
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+    userchoice = input()
+    answer = "chosen"
+
+if (userchoice == "1"):
+    print(
+        "Refers to the hardware or software operating at an acceptable level, the accuracy of data or the correspondence of data with the real world. Data may be unreliable if it has been entered incorrectly or if it becomes outdated. The reliability of machines, software, and data determines our confidence in their value and use."
+    )
+elif (userchoice == "2"):
+    print(
+        "Refers to safeguarding the accuracy and completeness of stored data. Data lacks integrity when it has been changed accidentally or tampered with. Examples of data losing integrity are where information is duplicated in a relational database and only one copy is updated or where data entries have been maliciously altered."
+    )
+elif (userchoice == "3"):
+    print(
+        "Authenticity means establishing a user’s identity beyond reasonable doubt. Authenticating the user is crucial in many scenarios, particularly in business and legal matters. A simple example of authentication is a user login to a network. A more advanced example would be the use of encrypted digital signatures in a business transaction or the use of watermarking on digital photographs."
+    )
+elif (userchoice == "4"):
+    print(
+        "Refers to the protection of hardware, software, machines and networks from unauthorized access. Security measures include restricted access to machines and networks for certain employees or to prevent access by hackers. The degree of security of information systems largely determines society’s confidence in the information contained in the systems."
+    )
+elif (userchoice == "5"):
+    print(
+        "Privacy is the ability of individuals and groups to determine for themselves when, how and to what extent information about themselves is shared with others. "
+    )
+elif (userchoice == "6"):
+    print(
+        " At its extreme, privacy becomes anonymity when, for instance, a person uses it to conceal his or her true identity in order to cyber-bully someone else. "
+    )
+elif (userchoice == "7"):
+    print(
+        "Includes ideas, discoveries, writings, works of art, software, collections and presentations of data. Copyright, trademarks and patents exist to protect intellectual property. However, the easy and accurate duplication methods made available through IT can undermine such protection."
+    )
+elif (userchoice == "8"):
+    print(
+        "The growth of the use of IT systems has led to disparities in the use of, and access to, information technologies. Disparities exist not only internationally between countries, but also within countries between different socio-economic groups as well as within what may appear to be relatively homogenous groups. This may lead to groups or individuals without access to IT being disadvantaged."
+    )
+elif (userchoice == "9"):
+    print(
+        "Policies often include some form, even if limited, of surveillance. This may be to protect the general population, or if at a place of business or school, may be to help protect and keep the network stable, or to ensure that the technology is being used appropriately. "
+    )
+elif (userchoice == "10"):
+    print(
+        "means the diminishing importance of geographical, political, economic and cultural boundaries. IT has played a major role in reducing these boundaries. "
+    )
+elif (userchoice == "11"):
+    print(
+        "Enforceable measures intended to promote appropriate and discourage inappropriate use relating to information technologies. They can be developed by governments, businesses, private groups or individuals. They normally consist of rules governing access to, or use of, information, hardware, software and networks."
+    )
+elif (userchoice == "12"):
+    print(
+        "Standard & Protocols are technical rules and conventions that enable compatibility and therefore facilitate communication or interoperability between different IT systems and their components. They might govern the design and use of hardware, software and information. "
+    )
+elif (userchoice == "13"):
+    print(
+        "The use of IT systems brings significant advantages, for instance in ease of use, being available 24/7, or through its use rather than exposing humans to a potentially hazardous environment. However, this can raise concerns about the rate at which technology is being introduced and issues that may arise from insufficient testing in critical situations such as air traffic control. The ultimate fear of many people is that future systems will be programmed to make decisions that would be better taken by humans, such as the decision to deploy nuclear weapons."
+    )
+elif (userchoice == "14"):
+    print(
+        "Digital Citizenship can be defined as appropriate behaviour that represents the responsible, ethical and legal approach that individuals take in any situation with respect to the use of IT. Digital citizenship permeates, in one way or another, all of the preceding social and ethical considerations."
+    )
+elif (userchoice == "15"):
+    print(
+        "Citizens better informed about the world, their community, friends, and family. However, there can be psychological impacts including stress, poor concentration, and short attention span. Additionally, this may also create additional obstacles to personal 1-to-1 relationships."
+    )
+elif (userchoice == "16"):
+    print(
+        "Access to nearly immediate access to new tools, , new ways to obtain information, new ways to share information. However, this can result in internet addiction, neglecting real life, and social media obsession."
+    )
+elif (userchoice == "17"):
+    print(
+        "Interactive medium capable of telling stories and providing intellectual stimulation. Also can improve hand-eye coordination. Users may have lower levels of concentration, sleep deprivation, social desensitization, addiction, and neglect real life and educational / personal development."
+    )
+elif (userchoice == "18"):
+    print(
+        "Wide variety of uses is cheaper than the cost of buying devices that handle all the uses individually; gps, computer, internet, gaming platform, movies, camera, phone, etc. Smartphones have a continual increasing cost of the hardware, and the frequency at which they are replaced results in lots of e-waste."
+    )
+elif (userchoice == "18"):
+    print(
+        "Easier communication with family. Easier communication in emergencies. However, can be an obstacle to in-person communication. Additionally, there may be possible health consequences, issues with addiction, and increased accidents due to a lack of awareness while in-use (car accidents for example)."
+    )
