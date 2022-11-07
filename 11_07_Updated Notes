@@ -1,0 +1,23 @@
+print("""Update Notes
+
+-TERMS-
+
+Wireframe
+Mockup
+Prototype
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+    userchoice = input()
+    answer = "chosen"
+
+if (userchoice == "1"):
+    print("a planning diagram to communicate the overall layout."
+    )
+elif (userchoice == "2"):
+    print("a planning illustration to communicate the final appearance."
+    )
+elif (userchoice == "2"):
+    print("a planning tool to communicate the functionality finished version used for quality assurance before mass-production.")
