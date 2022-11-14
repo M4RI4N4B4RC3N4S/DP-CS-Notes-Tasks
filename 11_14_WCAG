@@ -1,0 +1,31 @@
+print("""WCAG
+
+-Questions- 
+
+1) What is WCAG?
+2) What was WCAG released?
+3) Who works on WCAG?
+4) What is WCAG 2.1 in comparison to WCAG 2.0?
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+    userchoice = input()
+    answer = "chosen"
+
+if (userchoice == "1"):
+    print("WCAG provides technical specifications to improve the accessibility of web content, websites and web applications on desktop computers,laptops, tablets and mobile devices for people with a wide range of disabilities,including auditory, cognitive, neurological, physical, speech and visual disabilities.
+     there are three levels: 
+     -A easy
+     
+     -AA 
+     -AAA hard")
+elif (userchoice == "2"):
+    print("""
+    What was WCAG released? It was released a little over 10 years ago: december 2006 """)
+elif (userchoice == "3"):
+    print("""
+    Who works on WCAG? """)
+elif (userchoice == "4"):
+    print("") 
