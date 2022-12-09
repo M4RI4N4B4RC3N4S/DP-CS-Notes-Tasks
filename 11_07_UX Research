@@ -1,23 +1,33 @@
-print("""Update Notes
+print("""Prototypes and UX Research Notes
 
 -TERMS-
 
 Wireframe
 Mockup
 Prototype
+Prototyping Software
+UX Design and Research
 """)
 
 answer = "empty"
 
 while (answer == "empty"):
-    userchoice = input()
-    answer = "chosen"
+  userchoice = input()
+  answer = "chosen"
 
 if (userchoice == "1"):
-    print("a planning diagram to communicate the overall layout."
-    )
+  print("a planning diagram to communicate the overall layout.")
 elif (userchoice == "2"):
-    print("a planning illustration to communicate the final appearance."
-    )
-elif (userchoice == "2"):
-    print("a planning tool to communicate the functionality finished version used for quality assurance before mass-production.")
+  print("a planning illustration to communicate the final appearance.")
+elif (userchoice == "3"):
+  print(
+    "a planning tool to communicate the functionality finished version used for quality assurance before mass-production."
+  )
+elif (userchoice == "4"):
+  print(
+    "Possibility to consider during the development of a product. Digital prototypes may result in less honest feedback, as the users may feel like big changes may result in lots of extra work."
+  )
+elif (userchoice == "5"):
+  print(
+    "The study of learning what end users of a system or product need and want, then employing those insights to enhance the design process for products, services or software."
+  )
