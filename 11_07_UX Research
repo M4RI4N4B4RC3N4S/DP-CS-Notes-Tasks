@@ -7,6 +7,9 @@ Mockup
 Prototype
 Prototyping Software
 UX Design and Research
+Do you think any of today's content would be useful for your IA?
+Do you plan any of them for your IA?
+
 """)
 
 answer = "empty"
@@ -31,3 +34,11 @@ elif (userchoice == "5"):
   print(
     "The study of learning what end users of a system or product need and want, then employing those insights to enhance the design process for products, services or software."
   )
+elif (userchoice == "6"):
+  print(
+    "Yes, I was glad to be introduced to a wireframe and mockup. Previously we only worked with prototypes but now I know that there are different ways of demonstrating the overall layout, final appearance, functionality, and quality assurance. 
+)
+elif (userchoice == "7"):
+  print(
+     " As of now I would like to create a wireframe to communicate the overall layout of my IA but I think it can change as I go further into it. Personally I like how simple yet descriptive a wireframe can be without having to worry about its appearance. 
+)
