@@ -1,11 +1,15 @@
-print("""WCAG
+print("""WCAG Notes 
 
 -Questions- 
 
 1) What is WCAG?
-2) What was WCAG released?
+2) When was WCAG released?
 3) Who works on WCAG?
 4) What is WCAG 2.1 in comparison to WCAG 2.0?
+5) WCAG Levels
+6) Two guidelines or focuses related to WCAG 3
+7) Three different SaaS Services
+
 """)
 
 answer = "empty"
@@ -15,17 +19,28 @@ while (answer == "empty"):
     answer = "chosen"
 
 if (userchoice == "1"):
-    print("WCAG provides technical specifications to improve the accessibility of web content, websites and web applications on desktop computers,laptops, tablets and mobile devices for people with a wide range of disabilities,including auditory, cognitive, neurological, physical, speech and visual disabilities.
-     there are three levels: 
-     -A easy
-     
-     -AA 
-     -AAA hard")
+    print("""
+    WCAG provides technical specifications to improve the accessibility of web content, websites and web applications on desktop computers,laptops, tablets and mobile devices for people with a wide range of disabilities,including auditory, cognitive, neurological, physical, speech and disabilities""")
 elif (userchoice == "2"):
     print("""
-    What was WCAG released? It was released a little over 10 years ago: december 2006 """)
+    WCAG was released a little over 10 years ago around 2008.""")
 elif (userchoice == "3"):
     print("""
-    Who works on WCAG? """)
+    WCAG is developed by the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). """)
 elif (userchoice == "4"):
-    print("") 
+    print("""
+    WCAG 2.1 is not a replacement of WCAG 2.0 but is an extension of WCAG 2.0 with additional success criteria included to cater the needs of different user groups. In WCAG 2.1 there are 17 new success criteria's included across all the 3 conformance levels. Out of the 17 new success criteria's: 5 at Level A. 7 at level AA. 5 at level AAA. """) 
+elif (userchoice == "5"):
+    print("""
+    A is typically seen as the minimum level of compliance. AAA is seen as the highest level of compliance. 
+    Level A:25 criteria to meet
+    Level AA:38 criteria to meet
+    Level AAA:61 criteria to meet""") 
+elif (userchoice == "6"):
+     print("""
+     Broader numbers of stakehlder groups: This is note worthy because communicating directly with a stakeholder can provide new insights on a product or issue. Therefore the more stakeholders the more perspectives. 
+     Guidance for more disability groups: This is note worthy because guidance for more disability groups influences inclusion and asseccible to everyone. 
+     """)
+elif (userchoice == "7"):
+    print("""
+    After trying all three SaaS Services I prefer the second one = accessiBe.com Peronally the layout is more appeling to my eyes and has a variery of accessibility options. Additionally it has a languge option which the first one didnt offer. Finally under each accessibility it gives a brief description of what it does. """)
