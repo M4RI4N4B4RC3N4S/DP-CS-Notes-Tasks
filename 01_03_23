@@ -1,0 +1,59 @@
+print(""" Starting Computer Components Notes 
+
+-TERMS- 
+
+1) Hardware Layer 
+2) Operating System 
+3) Software Layer 
+4) User 
+5) Input Process Output
+6) Task
+7) Parts of a computer 
+
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  answer = "chosen"
+
+if (userchoice == "1"):
+  print("Made up of the physical components of a computer.")
+elif (userchoice == "2"):
+  print("allows hardware to communicate with the system.")
+elif (userchoice == "3"):
+  print("How we as humnas interact with our computer")
+elif (userchoice == "4"):
+  print("User interacts with the computer.")
+elif (userchoice == "5"):
+  print("""
+    Input: A requirement from the environment. 
+    Process: A computation based on the requirement. 
+    Output: A provision for the environment.""")
+elif (userchoice == "6"):
+  print("""
+  let i = 1; 
+while (i < 15) {
+      i * 2
+}
+open(data.txt)
+write(i)
+close(data.txt)
+
+What part of the code is the input?
+What part of the code is the process?
+What part of the code is the output?
+Does it utilize feedback? how?
+Does it utilize storage? how?
+  """)
+elif (userchoice == "7"):
+  print("""
+A motherboard: 
+A Central Processing Unit (CPU): 
+A Graphics Processing Unit (GPU): 
+Random Access Memory (RAM): 
+Storage: Solid State Drive (SSD) or Hard Disk Drive (HDD)
+Heatsink
+Thermal Paste 
+     """)
