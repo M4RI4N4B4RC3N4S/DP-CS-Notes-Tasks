@@ -33,22 +33,6 @@ elif (userchoice == "5"):
     Output: A provision for the environment.""")
 elif (userchoice == "6"):
   print("""
-  let i = 1; 
-while (i < 15) {
-      i * 2
-}
-open(data.txt)
-write(i)
-close(data.txt)
-
-What part of the code is the input?
-What part of the code is the process?
-What part of the code is the output?
-Does it utilize feedback? how?
-Does it utilize storage? how?
-  """)
-elif (userchoice == "7"):
-  print("""
 A motherboard: 
 A Central Processing Unit (CPU): 
 A Graphics Processing Unit (GPU): 
@@ -56,4 +40,5 @@ Random Access Memory (RAM):
 Storage: Solid State Drive (SSD) or Hard Disk Drive (HDD)
 Heatsink
 Thermal Paste 
-     """)
+  """)
+     
